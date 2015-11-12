@@ -14,7 +14,8 @@
 7. [Writing Tests](#writing-tests)
 8. [Front End Dev](#front-end-dev)
 9. [Server Side Dev](#server-side-dev)
-10. [Resources](#resources)
+10. [Deployment](#deployment)
+11. [Resources](#resources)
 
 ## Documentation
 
@@ -43,6 +44,8 @@ I trust my engineers but I need to know we're all on the same page. Those workin
 ## Front End Dev
 
 ## Server Side Dev
+
+## Deployment
 
 ## Resources
 
