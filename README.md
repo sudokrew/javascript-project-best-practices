@@ -12,7 +12,9 @@
 5. [Team Communication](#team-communication)
 6. [Code Reviews](#code-reviews)
 7. [Writing Tests](#writing-tests)
-8. [Resources](#resources)
+8. [Front End Dev](#front-end-dev)
+9. [Server Side Dev](#server-side-dev)
+10. [Resources](#resources)
 
 ## Documentation
 
@@ -35,6 +37,12 @@ MVS can be defined as follows:
 I trust my engineers but I need to know we're all on the same page. Those working together closely on the same project should communicate often throughout the day but this is a touch point for those not deep in the project to determine that the project is moving on along as planned with minimal overhead. This can be a great time saver and still be effective.
 
 ## Code Reviews
+
+## Writing Tests
+
+## Front End Dev
+
+## Server Side Dev
 
 ## Resources
 
