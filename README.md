@@ -2,7 +2,7 @@
 
 * An ever evolving and changing best practices document for how we build JavaScript applications. Some of this is JavaScript, some is our engineering process agnostic of a particular stack or language.
 
-* __DISCLAIMER__: This is what we determine over time works for us. We are a dev shop that work on many small to medium size projects at once with things that can change daily. If this wouldn't work for you that's cool, we're sorry. Suggestions welcome.
+* __DISCLAIMER__: This is what we determine over time works for us. We are a dev shop that work on many small to medium size projects at once with things that can change daily. If this wouldn't work for you that's cool, we're sorry. Contributions welcome.
 
 ## Table of Contents
 1. [Documentation](#documentation)
@@ -16,7 +16,7 @@
 
 ## Documentation
 
-ESDoc extends JSDoc with support for ES6 syntax, gives document coverage(think code coverage for documentation) and generates nice HTML documentation in a navigable format.
+ESDoc extends JSDoc with support for ES6 syntax, gives document coverage(think code coverage for documentation) and generates nice HTML documentation in a navigable format. 
 
 ## Project Tooling
 
