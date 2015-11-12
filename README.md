@@ -2,7 +2,7 @@
 
 * An ever evolving and changing best practices document for how we build JavaScript applications. Some of this is JavaScript, some is our engineering process agnostic of a particular stack or language.
 
-* DISCLAIMER: This is what we determine over time works for us. We are a dev shop that work on many small to medium size projects at once with things that can change daily. If this wouldn't work for you that's cool, we're sorry. Suggestions welcome.
+* __DISCLAIMER__: This is what we determine over time works for us. We are a dev shop that work on many small to medium size projects at once with things that can change daily. If this wouldn't work for you that's cool, we're sorry. Suggestions welcome.
 
 ## Table of Contents
 1. [Documentation](#documentation)
