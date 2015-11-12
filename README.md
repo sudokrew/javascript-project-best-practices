@@ -14,8 +14,11 @@
 7. [Writing Tests](#writing-tests)
 8. [Front End Dev](#front-end-dev)
 9. [Server Side Dev](#server-side-dev)
-10. [Deployment](#deployment)
-11. [Resources](#resources)
+10. [Configuration](#configuration)
+11. [Deployment](#deployment)
+12. [Dev Environment](#dev-environment)
+13. [Server Configuration](#server-configuration)
+14. [Resources](#resources)
 
 ## Documentation
 
@@ -45,7 +48,13 @@ I trust my engineers but I need to know we're all on the same page. Those workin
 
 ## Server Side Dev
 
+## Configuration
+
 ## Deployment
+
+# Dev Environment
+
+# Server Configuration
 
 ## Resources
 
