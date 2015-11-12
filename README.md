@@ -8,8 +8,12 @@
 3. [Debugging](#debugging)
 4. [Committing Code](#committing-code)
 5. [Code Reviews](#code-reviews)
+6. [Writing Tests](#writing-tests)
+6. [Resources](#resources)
 
 ## Documentation
+
+ESDoc extends JSDoc with support for ES6 syntax, gives document coverage(think code coverage for documentation) and generates nice HTML documentation in a navigable format.
 
 ## Project Tooling
 
@@ -18,3 +22,8 @@
 ## Committing Code
 
 ## Code Reviews
+
+## Resources
+
+** Documentation **
++ [ESDoc](https://esdoc.org/)
