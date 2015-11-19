@@ -49,6 +49,17 @@ I trust my engineers but I need to know we're all on the same page. Those workin
 
 ## Server Side Dev
 
+####Node.js
+
+- __process.cwd()__ - Disourage use in standard Express or framework for resolving a file path.`__dirname` gives the current working directory of the file while `process.cwd` gives you the path of where the command to start the script was run from.
+
+```
+/home/jaywon $ node project/demo/app.js
+
+//app.js
+console.log(process.cwd()) // /home/jaywon
+```
+
 ## Configuration
 
 ## Project Structure
