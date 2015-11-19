@@ -15,10 +15,11 @@
 8. [Front End Dev](#front-end-dev)
 9. [Server Side Dev](#server-side-dev)
 10. [Configuration](#configuration)
-11. [Deployment](#deployment)
-12. [Dev Environment](#dev-environment)
-13. [Server Configuration](#server-configuration)
-14. [Resources](#resources)
+11. [Project Structure](#project-structure)
+12. [Deployment](#deployment)
+13. [Dev Environment](#dev-environment)
+14. [Server Configuration](#server-configuration)
+15. [Resources](#resources)
 
 ## Documentation
 
@@ -49,6 +50,12 @@ I trust my engineers but I need to know we're all on the same page. Those workin
 ## Server Side Dev
 
 ## Configuration
+
+## Project Structure
+
+####Standard Express Project
+
+__Compiled Assets(/public)__: If using gulp, sass, or any other tasks that generate move files to standard `public` folder, generated assets should be in source control. This is to reduce the depenency on deployment routines to be responsible for being a task runner as well and having to troubleshoot deployment targets.
 
 ## Deployment
 
