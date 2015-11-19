@@ -59,11 +59,11 @@ __Compiled Assets(/public)__: If using gulp, sass, or any other tasks that gener
 
 ## Deployment
 
-# Dev Environment
+## Dev Environment
 
-# Server Configuration
+## Server Configuration
 
 ## Resources
 
-** Documentation **
+####Documentation
 + [ESDoc](https://esdoc.org/)
