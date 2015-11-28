@@ -45,6 +45,15 @@ I trust my engineers but I need to know we're all on the same page. Those workin
 
 ## Writing Tests
 
+It's important to write tests because it forces you to think critically about the code you are writing. Whether it's frontend or backend, there should be tests to support that the code being submitted is doing what it's supposed to do.
+
+### Tools
+We mainly use [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) because of the flexibility that both provide. Both may be used for front-end and back-end tests.
+
+If testing code that is supposed to run in the browser, use [Karma](http://karma-runner.github.io/) to run your Mocha tests. Karma reports results back to the cli, which is useful when integrating with continuous integration (CI) tools.
+
+Remember to run test frequently. Don't wait 2 hours to find out the code you wrote broke half of tests. Always use a watch task that is paired to give continuous feedback as you are developing. Whether that's having a visible terminal open, [growl notifications](https://www.npmjs.com/package/gulp-notify) enabled, or [Wallaby](http://wallabyjs.com/), make sure you know when things are breaking the moment it happens.
+
 ## Front End Dev
 
 ## Server Side Dev
