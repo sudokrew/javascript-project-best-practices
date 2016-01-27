@@ -23,9 +23,13 @@
 
 ## Documentation
 
-ESDoc extends JSDoc with support for ES6 syntax, gives document coverage(think code coverage for documentation) and generates nice HTML documentation in a navigable format. 
+ESDoc extends JSDoc with support for ES6 syntax, gives document coverage(think code coverage for documentation) and generates nice HTML documentation in a navigable format.
 
 ## Project Tooling
+
+### Linters
+
+It's important to use a linter with reasonable configurations to catch common errors before running your code. We are basing our ESLint configurations off of Airbnb's linters which can be found [here](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 
 ## Debugging
 
@@ -33,7 +37,7 @@ ESDoc extends JSDoc with support for ES6 syntax, gives document coverage(think c
 
 ## Team Communication
 
-MVS (Minimum Viable Scrum) - Daily communication with internal team is critical. Meetings suck. And in the environment we work in, even harder they can be hard to schedule with everyone's schedule. 
+MVS (Minimum Viable Scrum) - Daily communication with internal team is critical. Meetings suck. And in the environment we work in, even harder they can be hard to schedule with everyone's schedule.
 
 MVS can be defined as follows:
 - Check in via chat in the morning on what you will be doing today
