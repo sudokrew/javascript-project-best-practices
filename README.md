@@ -6,20 +6,21 @@
 
 ## Table of Contents
 1. [Documentation](#documentation)
-2. [Project Tooling](#project-tooling)
-3. [Debugging](#debugging)
-4. [Committing Code](#committing-code)
-5. [Team Communication](#team-communication)
-6. [Code Reviews](#code-reviews)
-7. [Writing Tests](#writing-tests)
-8. [Front End Dev](#front-end-dev)
-9. [Server Side Dev](#server-side-dev)
-10. [Configuration](#configuration)
-11. [Project Structure](#project-structure)
-12. [Deployment](#deployment)
-13. [Dev Environment](#dev-environment)
-14. [Server Configuration](#server-configuration)
-15. [Resources](#resources)
+1. [Project Tooling](#project-tooling)
+1. [Debugging](#debugging)
+1. [Committing Code](#committing-code)
+1. [Team Communication](#team-communication)
+1. [Code Reviews](#code-reviews)
+1. [Writing Tests](#writing-tests)
+1. [Front End Dev](#front-end-dev)
+1. [Server Side Dev](#server-side-dev)
+1. [Security](#security)
+1. [Configuration](#configuration)
+1. [Project Structure](#project-structure)
+1. [Deployment](#deployment)
+1. [Dev Environment](#dev-environment)
+1. [Server Configuration](#server-configuration)
+1. [Resources](#resources)
 
 ## Documentation
 
@@ -59,6 +60,10 @@ If testing code that is supposed to run in the browser, use [Karma](http://karma
 Remember to run test frequently. Don't wait 2 hours to find out the code you wrote broke half of tests. Always use a watch task that is paired to give continuous feedback as you are developing. Whether that's having a visible terminal open, [growl notifications](https://www.npmjs.com/package/gulp-notify) enabled, or [Wallaby](http://wallabyjs.com/), make sure you know when things are breaking the moment it happens.
 
 ## Front End Dev
+Ensure CSS background images make use of preloading if necessary
+```
+<link rel="preload" as="image" href="some/image.png" >
+```
 
 ## Server Side Dev
 
@@ -74,6 +79,14 @@ console.log(process.cwd()) // /home/jaywon
 ```
 
 ## Configuration
+
+## Security
+
+When adding scripts to a page use the `integrity` attribute of the `<script>` tag to generate a secure hash of the file that will not be executed by the browser if it doesn't match the downloaded files generated hash.
+
+```javascript
+<script src='https://mycdn.com/script.js' integrity='sha384xxxx...' />
+```
 
 ## Project Structure
 
